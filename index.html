@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="app/src/style.css">
+</head>
+<body>
+<audio id="player" controls="" autoplay="" preload autobuffer></audio>
+<div style="text-align: center; width: 100vw; height: 100vh;">
+    <button style="background: red; font-size: 2em;" onclick="this.style.display='none'; resume();">CLICK ME TO START!</button>
+</div>
+<div id="warning">Your browser doesn't support HTML5 AudioContext API, this demo won't run properly. Please use latest Chrome or Firefox on a desktop device</div>    
+<script src="app/lib/soundcloud-sdk.js"></script>
+<script src="app/lib/three.min.js"></script>
+<script src="app/lib/ConvolutionShader.js"></script>
+<script src="app/lib/CopyShader.js"></script>
+<script src="app/lib/FilmShader.js"></script>
+<script src="app/lib/EffectComposer.js"></script>
+<script src="app/lib/ShaderPass.js"></script>
+<script src="app/lib/MaskPass.js"></script>
+<script src="app/lib/RenderPass.js"></script>
+<script src="app/lib/BloomPass.js"></script>
+<script src="app/lib/FilmPass.js"></script>
+<script src="app/src/soundcloudaudiosource.js"></script>
+<script src="app/src/soundcloudloader.js"></script>
+<script src="app/src/visualizer.js"></script>
+<script src="app/src/render.js"></script>
+<script src="app/src/app.js"></script>
+</body>
+</html>
